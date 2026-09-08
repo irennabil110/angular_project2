@@ -1,0 +1,26 @@
+.contact-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-item {
+    padding: 22px 30px;
+    background-color: #20497b5f;
+    border-bottom: 1px solid #000000;
+}
+
+.info-item:last-child {
+    border-bottom: none;
+}
+
+.info-item h3 {
+    margin: 0 0 6px;
+    font-size: 17px;
+    color: #2F80ED;
+}
+
+.info-item p {
+    margin: 0;
+    color: #060505;
+    font-size: 16px;
+}

@@ -1,0 +1,32 @@
+.locations {
+    display: flex;
+    flex-direction: column;
+}
+
+.location-item {
+    padding: 25px 30px;
+
+    background-color: #20497b5f;
+
+    border-bottom: 1px solid #000000;
+}
+
+.location-item:last-child {
+    border-bottom: none;
+}
+
+.location-item h3 {
+    margin: 0 0 10px;
+
+    font-size: 20px;
+
+    color: #2F80ED;
+}
+
+.location-item p {
+    margin: 5px 0;
+
+    color: #060505;
+
+    font-size: 16px;
+}
